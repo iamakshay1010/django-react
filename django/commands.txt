@@ -19,6 +19,24 @@ https://www.django-rest-framework.org/api-guide/permissions/
 
 
 
+virtualenv env
+source env/bin/activate
+pip install django
+python -m pip freeze > requirements.txt
+django-admin startproject <projectname>
+python manage.py startapp <appname>
+//=======
+
+python manage.py runserver
+
+virtualenv --python=python3.8 env
+virtualenv env
+source env/bin/activate
+
+pip install -r requirements.txt
+
+
+
 //=====commands to create and run project======STARTS=========
 pip install Django
 django-admin startproject projectname
